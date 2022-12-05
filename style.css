@@ -1,0 +1,45 @@
+body {
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: x-large;
+  background: #53BEB5;
+}
+
+h2 {
+  text-align: center;
+  font-size: xxx-large;
+  margin: 0px;
+}
+
+.top-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.container img {
+  width: 20vw;
+}
+
+.container {
+  background-color: white;
+  border-radius: 25px;
+  padding: 5%;
+  margin: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-line {
+  text-align: center;
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+}
+
+.third-line {
+  text-align: center;
+  font-size: x-large;
+  display: flex;
+  text-align: center;
+}
