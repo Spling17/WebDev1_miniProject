@@ -30,11 +30,35 @@ h2 {
   justify-content: center;
 }
 
+/* .box {
+  display: flex;
+  padding:20px;
+}
+
+.box .image {
+  width: 100%;
+  object-fit: cover;
+  margin: 0 20px 0 0;
+}
+
+.box:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.box:nth-child(even) .img {
+  margin: 0 0 0 20px;
+}
+
+.text-box{
+  width:calc(100% - 320px);
+} */
+
 .second-line {
   text-align: center;
   font-size: x-large;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .third-line {
@@ -42,4 +66,5 @@ h2 {
   font-size: x-large;
   display: flex;
   text-align: center;
+  flex-wrap: wrap;
 }
